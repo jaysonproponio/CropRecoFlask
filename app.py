@@ -37,7 +37,7 @@ def index():
 
 
 if __name__ == "__main__":
-=======
+
 from flask import Flask, render_template, request
 import joblib
 import numpy as np
