@@ -33,7 +33,7 @@ def index():
         except Exception as e:
             error = f"Something went wrong: {str(e)}"
 
-    return render_template("templates/index.html", prediction=prediction, error=error)
+    return render_template("index.html", prediction=prediction, error=error)
 
 
 if __name__ == "__main__":
